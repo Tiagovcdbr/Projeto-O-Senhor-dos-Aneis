@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import { Zoom } from 'react-awesome-reveal';
 
 const Fellowship = () => {
@@ -79,7 +79,7 @@ const Fellowship = () => {
         <div className='container'>
           <div className='character-profile'>
             <span className='image-background'>
-              <Fade left duration={2500}>
+              <Fade delay={1200}>
                 <img src='/assets/images/The-Hobbit-Transparent-Background.png' alt='bilbo' />
               </Fade>
             </span>
@@ -288,7 +288,7 @@ const StyleHeader = styled.div`
     top: 24.5em;    
     width: 660px;
     max-width: 660px;
-    height: 450px;
+    height: 350px;
     -webkit-transition: all .33s ease-in-out;
     transition: all .33s ease-in-out;
 
@@ -467,7 +467,7 @@ const ContainerCharacter = styled.div`
     .character-profile {
       position: absolute;
       width: 50%;
-      top: -230px;
+      top: -130px;
       left: 480px;
       max-width: 817px;
       z-index: -1;

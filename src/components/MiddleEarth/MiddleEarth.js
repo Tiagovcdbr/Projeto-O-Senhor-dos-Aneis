@@ -30,7 +30,7 @@ const MiddleEarth = () => {
           </span>
         </div>
       </Fade>
-      <Zoom duration={2500}>
+      <Zoom duration={3000}>
         <div className='bg-history'>
           <div className='info-history'>
             <div className='top-border'>

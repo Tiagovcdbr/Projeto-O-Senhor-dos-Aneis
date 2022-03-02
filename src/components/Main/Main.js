@@ -15,7 +15,7 @@ const Main = () => {
       />
       <ContainerLogo>
         <div className='logo'>
-          <Zoom>
+          <Zoom duration={2500}>
             <img src='/assets/logo/lord-of-the-rings1.png' alt='logo' />
           </Zoom>
         </div>
