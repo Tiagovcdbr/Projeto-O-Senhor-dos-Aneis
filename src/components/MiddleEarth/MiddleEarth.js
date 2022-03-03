@@ -240,6 +240,7 @@ const StyleHeader = styled.div`
     align-items: center;
     justify-items: center;
     top: -10px;
+    transform: rotate(125deg);
 
     background: radial-gradient(ellipse at center,rgb(255,202,1,1) 0,rgba(13,149,255,0) 60%);
     background-color: rgba(0, 0, 0, 0);
@@ -258,6 +259,7 @@ const StyleHeader = styled.div`
     position: absolute;
     right: -20px;
     top: -16px;
+    transform: rotate(90deg);
 
     background: radial-gradient(ellipse at center,rgb(255,202,1,1) 0,rgba(13,149,255,0) 60%);
     background-color: rgba(0, 0, 0, 0);
