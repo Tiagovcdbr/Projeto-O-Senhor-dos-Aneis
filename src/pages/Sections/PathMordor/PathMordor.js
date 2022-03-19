@@ -103,6 +103,11 @@ const Container = styled.div`
   opacity: 1;
   animation-name: react-reveal-607813993386296-1;
 
+  @media(max-width: 1900px) {
+    margin-top: 34.8rem;
+    height: 700px;
+  }
+
   .container-hidden-image {
     margin: 0;
     width: 100%;
@@ -142,6 +147,7 @@ const Container = styled.div`
   @media(max-width: 1900px) {
     .hidden-image img {
       bottom: 150px;
+      height: 850px;
     }
   }
 `;
@@ -149,7 +155,7 @@ const Container = styled.div`
 const StyleHeader = styled.div`
   position: absolute;
   width: 100%;
-  bottom: -149.7rem;
+  bottom: -150.9rem;
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 0ms;
@@ -298,7 +304,7 @@ const StyleHeader = styled.div`
   @media(max-width: 1900px) {
     .bg-history {
       position: relative;
-      top: 320px;
+      top: 250px;
       height: 430px;
     }
   }
@@ -408,7 +414,7 @@ const ContainerCharacter = styled.div`
   transition: all .33s ease-in-out;
 
   @media(max-width: 1900px) {
-    margin-top: -150px;
+    margin-top: -50px;
   }
 
   .container {
@@ -434,8 +440,8 @@ const ContainerCharacter = styled.div`
 
     .character-profile {
       position: absolute;
-      width: 40%;
-      top: -350px;
+      width: 30%;
+      top: -250px;
       left: 480px;
       max-width: 420px;
       z-index: -1;
@@ -492,6 +498,13 @@ const ContainerCharacter = styled.div`
       display: inline-block;
       width: 100%;
     }
+
+    @media(max-width: 1900px) {
+      .image-background img {
+        width: 300px;
+        margin-top: 40px;
+      }
+    }  
 
     @media(max-width: 605px) {
       .image-background {

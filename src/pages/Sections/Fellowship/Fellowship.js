@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Fade } from 'react-awesome-reveal';
+import Fade from 'react-reveal/Fade';
 import { Zoom } from 'react-awesome-reveal';
 
 const Fellowship = () => {
@@ -79,7 +79,7 @@ const Fellowship = () => {
         <div className='container'>
           <div className='character-profile'>
             <span className='image-background'>
-              <Fade delay={1200}>
+              <Fade right duration={3000}>
                 <img src='/assets/images/The-Hobbit-Transparent-Background.png' alt='bilbo' />
               </Fade>
             </span>
@@ -443,8 +443,12 @@ const ContainerLogo = styled.div`
     margin-right: 50px;
     margin-top: -30px;
 
+    @media(max-width: 1780px) {
+      width: 30rem;
+    }
+
     @media(max-width: 750px) {
-      width: 35rem;
+      width: 30rem;
     }
 
     @media(max-width: 605px) {

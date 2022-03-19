@@ -5,13 +5,17 @@ import Zoom from 'react-reveal/Zoom';
 const Main = () => {
   return (
     <Container>
+      <audio
+      src={"/assets/audios/LOTR_audio.mp3"}
+      autoplay='1'          
+      />
       <video
         className='video-bg'
         src={"/assets/videos/senhor dos aneis argonath_HD.mp4"} 
         autoplay='1'
         allowfullscreen="1"
         loop
-        muted
+        
       />
       <ContainerLogo>
         <div className='logo'>
